@@ -10,6 +10,7 @@
     <div class="container text-center">
     <h1>Password Generator</h1>
     <form action="{% url 'password' %}">
+        <a> Select the length, please)</a>
         <select name="length">
             <option value="6">6</option>
             <option value="7">7</option>
@@ -20,7 +21,6 @@
             <option value="12">12</option>
             <option value="13">13</option>
         </select>
-        <a> Select the length, please)</a>
         <br>
         <input type="checkbox", name="uppercase"> Uppercase
         <br>
@@ -28,7 +28,7 @@
         <br>
         <input type="checkbox", name="specialchar"> Special characters
         <br>
-        <button value="submit" class="btn btn-primary">Generate</button>
+        <button value="submit" class="btn btn-primary">Generate!</button>
     </form>
     </div>
     </body>
